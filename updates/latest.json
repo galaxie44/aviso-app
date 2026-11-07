@@ -1,7 +1,7 @@
 {
-  "version": "1.0.5",
-  "build": 6,
-  "notes": "Envoi uniquement dans WhatsApp (plus de Google). Import contacts WhatsApp renforcé.",
+  "version": "1.0.6",
+  "build": 7,
+  "notes": "Correction multi-envoi WhatsApp (1 seul clic Envoyer).",
   "apkUrl": "https://github.com/galaxie44/aviso-app/releases/latest/download/app-arm64-v8a-release.apk",
-  "releaseUrl": "https://github.com/galaxie44/aviso-app/releases/tag/v1.0.5"
+  "releaseUrl": "https://github.com/galaxie44/aviso-app/releases/tag/v1.0.6"
 }
