@@ -1,7 +1,7 @@
 {
-  "version": "1.0.11",
-  "build": 12,
-  "notes": "PJ + localisation ensemble. Tutoriel : une vidéo au choix, curseur, ±10s, vitesse. Import contacts téléphone uniquement.",
+  "version": "1.0.12",
+  "build": 13,
+  "notes": "Envoi en arrière-plan : à l’heure H WhatsApp s’ouvre et Envoyer est cliqué automatiquement (sans attendre AVISO). Multi-destinataires enchaînés.",
   "apkUrl": "https://github.com/galaxie44/aviso-app/releases/latest/download/app-arm64-v8a-release.apk",
-  "releaseUrl": "https://github.com/galaxie44/aviso-app/releases/tag/v1.0.11"
+  "releaseUrl": "https://github.com/galaxie44/aviso-app/releases/tag/v1.0.12"
 }
