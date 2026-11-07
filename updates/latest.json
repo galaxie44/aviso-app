@@ -1,7 +1,7 @@
 {
-  "version": "1.0.8",
-  "build": 9,
-  "notes": "Pièces jointes et localisation envoyées dans WhatsApp. Choix de lieu (GPS / adresse). Import contacts plus fiable (fallback carnet).",
+  "version": "1.0.9",
+  "build": 10,
+  "notes": "Envoi écran éteint : alarme type réveil, service de réveil, notif plein écran, déverrouillage. Réglages alarmes exactes + plein écran.",
   "apkUrl": "https://github.com/galaxie44/aviso-app/releases/latest/download/app-arm64-v8a-release.apk",
-  "releaseUrl": "https://github.com/galaxie44/aviso-app/releases/tag/v1.0.8"
+  "releaseUrl": "https://github.com/galaxie44/aviso-app/releases/tag/v1.0.9"
 }
