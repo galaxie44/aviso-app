@@ -1,7 +1,7 @@
 {
-  "version": "1.0.7",
-  "build": 8,
-  "notes": "Alarmes exactes hors app + rappels avant envoi.",
+  "version": "1.0.8",
+  "build": 9,
+  "notes": "Pièces jointes et localisation envoyées dans WhatsApp. Choix de lieu (GPS / adresse). Import contacts plus fiable (fallback carnet).",
   "apkUrl": "https://github.com/galaxie44/aviso-app/releases/latest/download/app-arm64-v8a-release.apk",
-  "releaseUrl": "https://github.com/galaxie44/aviso-app/releases/tag/v1.0.7"
+  "releaseUrl": "https://github.com/galaxie44/aviso-app/releases/tag/v1.0.8"
 }
