@@ -1,0 +1,7 @@
+{
+  "version": "1.0.2",
+  "build": 3,
+  "notes": "Icône lanceur = logo AVISO, tutoriel vidéo corrigé, import contacts, accessibilité.",
+  "apkUrl": "https://github.com/galaxie44/aviso-app/releases/latest/download/app-arm64-v8a-release.apk",
+  "releaseUrl": "https://github.com/galaxie44/aviso-app/releases/tag/v1.0.2"
+}
