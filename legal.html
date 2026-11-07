@@ -1,26 +1,75 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" data-theme="standard">
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>AVISO — Cadre légal</title>
   <link rel="icon" href="aviso_logo.jpg" />
-  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700&amp;family=Fraunces:opsz,wght@9..144,600;9..144,700&amp;display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700;800&amp;family=Fraunces:opsz,wght@9..144,600;9..144,700&amp;display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
+  
+<script>
+(function () {
+  const root = document.documentElement;
+  const keys = {
+    theme: 'aviso_theme',
+    large: 'aviso_large',
+    bold: 'aviso_bold',
+    reduce: 'aviso_reduce'
+  };
+  function apply() {
+    root.setAttribute('data-theme', localStorage.getItem(keys.theme) || 'standard');
+    root.setAttribute('data-large', localStorage.getItem(keys.large) === '1' ? '1' : '0');
+    root.setAttribute('data-bold', localStorage.getItem(keys.bold) === '1' ? '1' : '0');
+    root.setAttribute('data-reduce', localStorage.getItem(keys.reduce) === '1' ? '1' : '0');
+    const theme = document.getElementById('a11y-theme');
+    if (theme) theme.value = root.getAttribute('data-theme');
+    const large = document.getElementById('a11y-large');
+    if (large) large.checked = root.getAttribute('data-large') === '1';
+    const bold = document.getElementById('a11y-bold');
+    if (bold) bold.checked = root.getAttribute('data-bold') === '1';
+    const reduce = document.getElementById('a11y-reduce');
+    if (reduce) reduce.checked = root.getAttribute('data-reduce') === '1';
+  }
+  window.avisoA11y = {
+    setTheme(v) { localStorage.setItem(keys.theme, v); apply(); },
+    setLarge(v) { localStorage.setItem(keys.large, v ? '1' : '0'); apply(); },
+    setBold(v) { localStorage.setItem(keys.bold, v ? '1' : '0'); apply(); },
+    setReduce(v) { localStorage.setItem(keys.reduce, v ? '1' : '0'); apply(); }
+  };
+  apply();
+})();
+</script>
+
 </head>
 <body>
+
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <div class="a11y-bar" role="region" aria-label="Options d'accessibilité">
+    <label>Couleurs
+      <select id="a11y-theme" onchange="avisoA11y.setTheme(this.value)" aria-label="Thème de couleurs">
+        <option value="standard">Standard</option>
+        <option value="colorblind">Daltonien</option>
+        <option value="contrast">Contraste élevé</option>
+      </select>
+    </label>
+    <label><input id="a11y-large" type="checkbox" onchange="avisoA11y.setLarge(this.checked)" /> Texte agrandi</label>
+    <label><input id="a11y-bold" type="checkbox" onchange="avisoA11y.setBold(this.checked)" /> Texte gras</label>
+    <label><input id="a11y-reduce" type="checkbox" onchange="avisoA11y.setReduce(this.checked)" /> Moins d'animations</label>
+  </div>
+
   <header class="top">
     <a class="brand" href="./">
-      <img src="aviso_logo.jpg" width="40" height="40" alt="" />
+      <img src="aviso_logo.jpg" width="40" height="40" alt="Logo AVISO" />
       <span>AVISO</span>
     </a>
-    <nav>
+    <nav aria-label="Navigation">
       <a href="./#telecharger">Télécharger</a>
       <a href="legal.html">Légal</a>
     </nav>
   </header>
-  <div class="legal-wrap">
+  <div class="legal-wrap" id="contenu">
     <h1>Cadre légal</h1>
     <p>Documents types pour collectivité. À personnaliser (éditeur, DPO, contacts) avant usage public.</p>
     <article>
