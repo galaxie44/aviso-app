@@ -1,7 +1,7 @@
 {
-  "version": "1.0.21",
-  "build": 22,
-  "notes": "Fix envoi auto groupe+texte+PJ+loc (sélection destinataire + légende) ; doublons contacts fusionnés ; jetons {name} dans Réglages ; tutos à jour.",
+  "version": "1.0.22",
+  "build": 23,
+  "notes": "Un seul destinataire (personne ou groupe) ; envoi auto groupe+PJ+loc renforcé (confirmation « Envoyer à » + aperçu document).",
   "apkUrl": "https://github.com/galaxie44/aviso-app/releases/latest/download/app-arm64-v8a-release.apk",
-  "releaseUrl": "https://github.com/galaxie44/aviso-app/releases/tag/v1.0.21"
+  "releaseUrl": "https://github.com/galaxie44/aviso-app/releases/tag/v1.0.22"
 }
