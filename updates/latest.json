@@ -1,7 +1,1 @@
-{
-  "version": "1.0.14",
-  "build": 15,
-  "notes": "Correctif PJ + localisation : le fichier part en premier (WhatsApp ignorait l’image si le texte/loc était dans le même intent).",
-  "apkUrl": "https://github.com/galaxie44/aviso-app/releases/latest/download/app-arm64-v8a-release.apk",
-  "releaseUrl": "https://github.com/galaxie44/aviso-app/releases/tag/v1.0.14"
-}
+{"apkUrl":"https://github.com/galaxie44/aviso-app/releases/latest/download/app-arm64-v8a-release.apk","releaseUrl":"https://github.com/galaxie44/aviso-app/releases/tag/v1.0.15","build":16,"version":"1.0.15","notes":"PJ+localisation = 1 message auto ; sélection contact via WhatsApp (SKEDit) ; import contacts accéléré."}
