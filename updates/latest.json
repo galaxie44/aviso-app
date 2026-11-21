@@ -1,7 +1,7 @@
 {
-  "version": "1.0.22",
-  "build": 23,
-  "notes": "Un seul destinataire (personne ou groupe) ; envoi auto groupe+PJ+loc renforcé (confirmation « Envoyer à » + aperçu document).",
+  "version": "1.0.24",
+  "build": 25,
+  "notes": "WhatsApp only ; contacts via WA (06…) ; groupes OK ; multi-PJ+texte en 1 message ; labels/import retirés ; RGPD (purge locale + textes).",
   "apkUrl": "https://github.com/galaxie44/aviso-app/releases/latest/download/app-arm64-v8a-release.apk",
-  "releaseUrl": "https://github.com/galaxie44/aviso-app/releases/tag/v1.0.22"
+  "releaseUrl": "https://github.com/galaxie44/aviso-app/releases/tag/v1.0.24"
 }
