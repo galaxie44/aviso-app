@@ -1,7 +1,7 @@
 {
-  "version": "1.0.27",
-  "build": 28,
-  "notes": "Bouton Corriger seul : orthographe, grammaire, majuscules et ponctuation.",
+  "version": "1.0.28",
+  "build": 29,
+  "notes": "Envoi groupe : clic fiable sur le résultat (plus de boucle liste contacts). PJ image+document sans ZIP (formats d’origine). Bouton refresh retiré.",
   "apkUrl": "https://github.com/galaxie44/aviso-app/releases/latest/download/app-arm64-v8a-release.apk",
-  "releaseUrl": "https://github.com/galaxie44/aviso-app/releases/tag/v1.0.27"
+  "releaseUrl": "https://github.com/galaxie44/aviso-app/releases/tag/v1.0.28"
 }
