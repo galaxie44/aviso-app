@@ -1,7 +1,7 @@
 {
-  "version": "1.0.30",
-  "build": 31,
-  "notes": "Mises à jour in-app réparées (Plus → Mettre à jour l’app). Détection build + téléchargement APK fiables.",
+  "version": "1.0.31",
+  "build": 32,
+  "notes": "Saisie d’adresse : suggestions automatiques (lieux / rues) à sélectionner, plus de saisie à l’aveugle.",
   "apkUrl": "https://github.com/galaxie44/aviso-app/releases/latest/download/app-arm64-v8a-release.apk",
-  "releaseUrl": "https://github.com/galaxie44/aviso-app/releases/tag/v1.0.30"
+  "releaseUrl": "https://github.com/galaxie44/aviso-app/releases/tag/v1.0.31"
 }
