@@ -1,7 +1,7 @@
 {
-  "version": "1.0.24",
-  "build": 25,
-  "notes": "WhatsApp only ; contacts via WA (06…) ; groupes OK ; multi-PJ+texte en 1 message ; labels/import retirés ; RGPD (purge locale + textes).",
+  "version": "1.0.25",
+  "build": 26,
+  "notes": "Écran d’envoi simplifié (message, date, destinataire WhatsApp, PJ). Options avancées repliées.",
   "apkUrl": "https://github.com/galaxie44/aviso-app/releases/latest/download/app-arm64-v8a-release.apk",
-  "releaseUrl": "https://github.com/galaxie44/aviso-app/releases/tag/v1.0.24"
+  "releaseUrl": "https://github.com/galaxie44/aviso-app/releases/tag/v1.0.25"
 }
